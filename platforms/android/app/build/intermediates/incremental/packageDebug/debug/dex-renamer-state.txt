@@ -1,0 +1,4 @@
+#Fri Oct 11 19:08:09 BRT 2019
+base.0=/x4n/work/FTT/LP3/CODE/fttnews/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

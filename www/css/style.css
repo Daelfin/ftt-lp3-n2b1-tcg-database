@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.campos {
+    display: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+figure {
+    float: left;
+    width: 96px;
+    height: 96px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    font-size: smaller;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Random Card API</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/main.js"></script>
+
+</head>
+
+
+<!--Parametros aplicados ao clicar no botão-->
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>Yu-Gi-Oh Random Card API</h1>
+            <p><button id="btn" onclick="fetchRandomCards(); fetchxRandomCards(); clearScreen(); getMoreRandomCards();">Get Random Card</button></p>
+            <p>
+                <table>
+                    </thead>
+                    <tbody id="tableData">
+                    </tbody>
+                </table>
+            </p>
+        </div>
+
+
+
+    <h2 id="subtitle"></h2>
+    <div class="container-fluid p-1">
+
+      <a id="back2top" href="#" >
+      </a>
+
+      <div class="row">
+        
+        <div class="card- p-1 col-sm-3" id="setsFilterBar">
+          <!-- Barra de busqueda para filtrado -->
+
+        </div>
+
+        
+        <div class="card- p-1 col-sm-3" id="advancedMode">
+
+          <!--  Advanced Mode filter Bar  -->
+
+        </div>
+
+        <div class="card- p-1 col-sm-3" id="cardResults">
+
+          <!--  Card Results  -->
+
+        </div>
+        <div class="card- p-1 col-sm-3 container-fluid">
+          <div class="row" id="miniCardResults">
+
+          </div>
+
+        <div class="column">
+
+            <canvas id="myChart" height="800" width="800"></canvas>
+
+        </div>
+
+
+    </div>
+
+    <div class="card- p-1 col-sm-3" id="setResults">
+          
+
+    </div>
+
+</body>
+
+
+</html>
